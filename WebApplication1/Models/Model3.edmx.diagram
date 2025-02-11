@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="08135e1d07e54d35b27fb26d9ba4e7c1" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.AGENT" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.AGENT_ACTION" Width="1.5" PointX="5.25" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.BL_TYPE" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.CARRIER" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.CARRIER_ACTION" Width="1.5" PointX="5.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.ChatMessage" Width="1.5" PointX="5.25" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.CPORT" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.CURRENCY" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.FEE" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.GOODS_TYPE" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.INVOICE_TYPE" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.KINDOFPACKAGE" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.MODE" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Quotation" Width="1.5" PointX="3" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Quotations_Charges" Width="1.5" PointX="5.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.SOURSE" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.SUP_TYPE" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_CHARGES" Width="1.5" PointX="18" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_CNEE" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_CNEE_ADD" Width="1.5" PointX="5.25" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_COM" Width="1.5" PointX="0.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_CONTH" Width="1.5" PointX="15.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_CUSTOMER" Width="1.5" PointX="6" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_DELIVERY_CONTH" Width="1.5" PointX="18" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_DELIVERYPFROOF" Width="1.5" PointX="15.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_DEPARTMENT" Width="1.5" PointX="3" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_HBL" Width="1.5" PointX="13.5" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_HSCODE" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_INVOICE" Width="1.5" PointX="15.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_JOB" Width="1.5" PointX="8.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_LOG" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_MESSAGES" Width="1.5" PointX="6" PointY="41" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_SCUSTOMER" Width="1.5" PointX="10.5" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_SCUSTOMER_RELATIONSHIP" Width="1.5" PointX="12.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_SHIPPER" Width="1.5" PointX="3" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_STAFF" Width="1.5" PointX="8.25" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_SUPPLIER" Width="1.5" PointX="3" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_SUPPLIER_ACTION" Width="1.5" PointX="5.25" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_TAI_KHOAN" Width="1.5" PointX="3" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_TAI_KHOAN_MESSAGES" Width="1.5" PointX="8.25" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_TUTT" Width="1.5" PointX="3" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_TUTT_JOB" Width="1.5" PointX="15.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.tbl_TUTT_PHI" Width="1.5" PointX="5.25" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.UNIT" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK__AGENT__Com_ID__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__AGENT_ACTI__CODE__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_JOB__Agent__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__CARRIER__Com_ID__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__CARRIER_AC__CODE__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_JOB__Carrier__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__ChatMessa__Usern__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Quotation__Com_I__662B2B3B" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__Quotation__Quota__690797E6" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CHARG__Debit__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CNEE__Com_ID__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CNEE_A__CNEE__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_HBL__CNEE__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CUSTO__Com_I__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_DEPAR__Com_I__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_JOB__Com_ID__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_SHIPP__Com_I__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_STAFF__Com_I__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_SUPPL__Com_I__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TAI_K__Com_I__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TUTT__Com_ID__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CONTH__HBL__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_DELIVERY__ID__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_CUSTO__Staff__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_HBL__Custome__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_DELIV__Del_I__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_STAFF__Depar__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_HBL__Request__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_HBL__Shipper__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_HBL__Staff_I__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_INVOICE__HBL__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TUTT_JO__HBL__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_INVOI__Suppl__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TAI_K__Messa__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_SCUST__SCust__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_SCUST__Staff__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_SUPPL__Suppl__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TAI_K__Usern__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TUTT___SoTUT__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__tbl_TUTT___SoTUT__7B5B524B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
