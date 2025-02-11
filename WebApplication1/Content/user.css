@@ -4,8 +4,6 @@
     text-align: center;
 }
 
-
-
 .dashboard {
     margin: 50px auto;
     max-width: 1100px;
@@ -29,7 +27,7 @@
     border-radius: 15px;
     color: black;
     text-align: center;
-    font-size: 20px; /* Chữ to hơn */
+    font-size: 20px;
     font-weight: bold;
     transition: 0.3s;
     display: flex;
@@ -47,13 +45,12 @@
     }
 
     .menu-item span {
-        font-size: 35px; /* Tăng kích thước emoji 🚀 👥 */
+        font-size: 35px;
     }
 
 .header {
     display: flex;
     align-items: center;
-    background: #004d00;
     padding: 10px 20px;
     color: white;
 }
