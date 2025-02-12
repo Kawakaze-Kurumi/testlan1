@@ -19,5 +19,9 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Index", "Job");
         }
 
+        public ActionResult GoToCustomer()
+        {
+            return RedirectToAction("Index", "Customer");
+        }
     }
 }
