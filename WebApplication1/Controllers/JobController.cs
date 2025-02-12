@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    public class UserController : Controller
+    public class JobController : Controller
     {
+        // GET: Job
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult GoToJob()
+        public ActionResult GoToHome()
         {
-            return RedirectToAction("Index", "Job");
+            return RedirectToAction("Index", "User");
         }
 
     }
